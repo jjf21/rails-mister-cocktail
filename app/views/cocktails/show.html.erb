@@ -1,5 +1,5 @@
 <div class='product-show'>
-  <div class='product-img'><%= image_tag @cocktail.photo %></div>
+  <div class='product-img'><%= image_tag @cocktail.photo.url(:standard) %></div>
   <div class='product-details'>
       <h1><%= @cocktail.name.capitalize %></h1>
       <ul>

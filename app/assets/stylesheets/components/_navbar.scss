@@ -10,6 +10,16 @@
   justify-content: space-between;
 }
 
+.navbar-wagon-brand img {
+  height: 40px;
+}
+
+h1 {
+  margin-top:0px;
+  margin-bottom:0px;
+
+}
+
 /* Right section */
 .navbar-wagon-right {
   display: flex;
@@ -29,14 +39,14 @@
   font-size: 14px;
 }
 .navbar-wagon-link:hover {
-  color: #da552f;
+  color: $green;
   text-decoration: none;
 }
 
 
 .navbar-wagon-button{
-  border: 1px solid #da552f;
-  background: #da552f;
+  border: 1px solid $green;
+  background: $green;
   border-radius: 300px;
   padding: 10px;
   color: white;
@@ -44,16 +54,6 @@
 
 .navbar-wagon-button:hover{
   text-decoration: none;
-  color: #da552f;
+  color: $green;
   background: none;
-}
-
-h1 > a{
-  color:#616668;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-h1 > a:hover{
-  color: #da552f;
-  text-decoration: none;
 }

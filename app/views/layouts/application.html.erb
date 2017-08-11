@@ -11,13 +11,8 @@
 
   <body>
     <%= render "shared/navbar" %>
-    <div class='container' style='padding-top: 50px;'>
-      <div class='row'>
-        <div class='col-md-12'>
-        <%= yield %>
-        </div>
-      </div>
-    </div>
+      <%= yield %>
+    <%= render "shared/footer" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
